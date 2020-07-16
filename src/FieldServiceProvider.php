@@ -1,6 +1,6 @@
 <?php
 
-namespace Hubertnnn\LaravelNova\Fields\DynamicSelect;
+namespace Crossbit\LaravelNova\Fields\DynamicSelect;
 
 use Illuminate\Support\Facades\Route;
 use Laravel\Nova\Nova;
@@ -39,7 +39,7 @@ class FieldServiceProvider extends ServiceProvider
 
         Route::middleware(['nova'])
             ->prefix('nova-vendor/dynamic-select')
-            ->namespace('Hubertnnn\LaravelNova\Fields\DynamicSelect\Http\Controllers')
+            ->namespace('Crossbit\LaravelNova\Fields\DynamicSelect\Http\Controllers')
             ->group(__DIR__.'/../routes/api.php');
     }
 

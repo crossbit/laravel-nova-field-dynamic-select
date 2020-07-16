@@ -1,8 +1,8 @@
 <?php
 
-namespace Hubertnnn\LaravelNova\Fields\DynamicSelect\Http\Controllers;
+namespace Crossbit\LaravelNova\Fields\DynamicSelect\Http\Controllers;
 
-use Hubertnnn\LaravelNova\Fields\DynamicSelect\DynamicSelect;
+use Crossbit\LaravelNova\Fields\DynamicSelect\DynamicSelect;
 use Illuminate\Routing\Controller;
 use Laravel\Nova\Http\Requests\NovaRequest;
 

@@ -1,10 +1,3 @@
-# Dynamic select field for Laravel Nova
-
-This field allows you to dynamically fill contents of a select based on values in other dynamic select fields.
-
-Field is based on [nova-belongs-to-dependency]{https://novapackages.com/packages/manmohanjit/nova-belongs-to-dependency}
-but instead of selecting model, you can select custom values.
-
 ### Usage
 Class have 2 special methods on top of default Select from Laravel Nova.
 `dependsOn` can take a list of other fields this one depends on.

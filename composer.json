@@ -1,5 +1,5 @@
 {
-    "name": "hubertnnn/laravel-nova-field-dynamic-select",
+    "name": "crossbit/laravel-nova-field-dynamic-select",
     "description": "A Laravel Nova field.",
     "keywords": [
         "laravel",
@@ -11,13 +11,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Hubertnnn\\LaravelNova\\Fields\\DynamicSelect\\": "src/"
+            "Crossbit\\LaravelNova\\Fields\\DynamicSelect\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Hubertnnn\\LaravelNova\\Fields\\DynamicSelect\\FieldServiceProvider"
+                "Crossbit\\LaravelNova\\Fields\\DynamicSelect\\FieldServiceProvider"
             ]
         }
     },
